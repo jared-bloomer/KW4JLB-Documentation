@@ -35,7 +35,6 @@ jobs:
     - name: Install dependencies
       run: python3 -m pip install -r ./requirements.txt
 
-    - run: mkdocs build
     
     # # Standard drop-in approach that should work for most people.
     # - uses: ammaraskar/sphinx-action@master
