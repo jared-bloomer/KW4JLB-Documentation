@@ -4,11 +4,11 @@ on:
   push:
     branches:    
       - main
-  pull_request:
-    branches:
-      - main
-    types:
-      - closed
+  # pull_request:
+  #   branches:
+  #     - main
+  #   types:
+  #     - closed
 
 jobs:
   build:
@@ -42,7 +42,7 @@ jobs:
 
     - name: Install dependencies
       run: python3 -m pip install -r ./requirements.txt
-      
+
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/"
