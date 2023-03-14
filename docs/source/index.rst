@@ -11,6 +11,7 @@ This is a collection of documents related to Amateur Radio I have gathered over 
 .. toctree::
    :maxdepth: 2
 
+   self
    training/index
    bookmarks/index
 
