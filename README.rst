@@ -1,6 +1,13 @@
 README
 ======
 
+Description
+-----------
+
+This Repository is for building Sphinx Documentation to be published to github.io. The publishing process is handled automatically via Github Actions when a change is merged into the main branch of this Repository. 
+
+The documentation can be viewed at https://jared-bloomer.github.io/KW4JLB-Documentation/
+
 Building Locally
 ----------------
 
