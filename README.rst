@@ -11,7 +11,7 @@ The documentation can be viewed at https://jared-bloomer.github.io/KW4JLB-Docume
 Building Locally
 ----------------
 
-To build this site locally use the `Makefile` in `docs/`.
+To build this site locally use the ``Makefile`` in ``docs/``.
 
 .. code-block:: bash
 
