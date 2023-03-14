@@ -22,11 +22,11 @@ _______
 2. Click the start menu and type ``run`` and click on the result
 3. Enter ``%AppData%\NetLogger`` and click OK
    
-.. image:: ./_static/images/training/netlogger/netlogger_run.PNG
+.. image:: images/netlogger_run.PNG
 
-4. Navigate into the ``misc profiles`` directory
-5. Paste or move your ``.prf`` club profile file into this directory
-6. Start NetLogger
+1. Navigate into the ``misc profiles`` directory
+2. Paste or move your ``.prf`` club profile file into this directory
+3. Start NetLogger
 
 OS X
 ____
