@@ -22,7 +22,7 @@ _______
 2. Click the start menu and type ``run`` and click on the result
 3. Enter ``%AppData%\NetLogger`` and click OK
    
-.. image:: /training/netlogger/images/netlogger_run.PNG
+.. image:: /_static/images/training/netlogger/netlogger_run.PNG
 
 1. Navigate into the ``misc profiles`` directory
 2. Paste or move your ``.prf`` club profile file into this directory
