@@ -13,5 +13,6 @@ This is a collection of documents related to Amateur Radio I have gathered over 
 
    self
    training/index
+   how_tos/index
    bookmarks/index
 
