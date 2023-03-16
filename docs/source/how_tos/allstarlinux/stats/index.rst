@@ -28,4 +28,6 @@ Enabling Statistics Reporting
 
 You want to uncomment the lines according to your system. For the ASL image you want to use the lines for Debian Linux. 
 
+For changing where the statistics get reported to, just update the ``statpost_url`` variable accordingly.
+
 
