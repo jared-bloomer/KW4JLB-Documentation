@@ -1,7 +1,7 @@
 Statistics Reporting
 ====================
 
-In Allstar Linux you can enable reporting of Statistics of your installation to a remote source. By default this is disabled, and the example configuration sends the data to stats.allstarlink.org. However, this is not the only place you can send this information. You can configure Asterisk to send this to where ever you choose. For example, if you have a custom application that has an API endpoint for collecting these metrics, you can point Asterisk to that endpoint. From your API standpoint it will be a GET request. Generally the metrics you can collect are the Node Number, Total Transmissions, and Total Transmission Time. If you want to get deep in the weeds there are other metrics you can pull out from the body request that is sent over. For most users this is a deeper topic than needed to schieve their goal. 
+In Allstar Linux you can enable reporting of Statistics of your installation to a remote source. By default this is disabled, and the example configuration sends the data to stats.allstarlink.org. However, this is not the only place you can send this information. You can configure Asterisk to send this to where ever you choose. For example, if you have a custom application that has an API endpoint for collecting these metrics, you can point Asterisk to that endpoint. From your API standpoint it will be a GET request. Generally the metrics you can collect are the Node Number, Total Transmissions, and Total Transmission Time. If you want to get deep in the weeds there are other metrics you can pull out from the body request that is sent over. For most users this is a deeper topic than needed to achieve their goal. 
 
 Enabling Statistics Reporting
 -----------------------------
