@@ -5,3 +5,4 @@ Allstar Linux (ASL)
    :maxdepth: 1
 
    stats/index
+   RIM-MaxTrac/index
