@@ -43,3 +43,18 @@ In preperation for this project there are several items we will need to gather. 
 
 Some additional items you may want depending on your install would be things like SO-239 Bulkhead connectors, Nylon/Plycarbonate Wall Plate Blank Covers, etc. The PL-259 to SO-239 90 Degree Adapter in the list above is just so the coax coming up from the floor to the wall does not have to be bent to get to the radio jumper. 
 
+Antenna Installation
+--------------------
+
+First, thing is to determine the line of sight path from your antenna installation location and the repeater. I like to use `Ubiquiti's WISP (https://ispdesign.ui.com/#) <https://ispdesign.ui.com/#>`_ tool for this. 
+
+For this particular installation I determined I only needed the MFJ-1852 Yagi antenna 6 feet off the ground. Due to the nature of where I was installing it, I installed it at 10 feet. Unfortunately for me the mounting hardware that comes with the Antenna if for a 1" pipe and I was mounting on a 1.5" pipe. With that said I had to get creative and build my own mounting bracket from 2" aluminum flat bar, some Long M6 Stainless Bolts, washers, nuts, and a 1.5" U-bolt. All this was found at Lowes. 
+
+Once I mounted the Antenna, MFJ suggest attaching the short coax run for the driven element to the boom using electrical tape. I did so in 2 places so the SO-239 connector was hanging right near the Antenna Mast. This will help secure the coax later and allow for some strain relief. 
+
+Next up was Cutting a peice of Davis RF Bury Flex (LMR400) Coax and Soldering on some PL-259 connectors. I ended up cutting around 15 feet of Coax for this particular installation. I like my connectors to look as professional as possible so I slip on a 3" peice of 1/2" Heatshrink with the glue on the inside, then my PL-259 barrel connector. I attached the inner connector of the PL-259, screwed on the barrel connector, then covered the end witht he heat shrink and sealed it all up but heating the heat shrink.
+
+I then took the RF Davis Coax and attached it to the Antenna. I sealed the connections but taking 3M Supper 33 Tape and starting just below the PL-259 connector and wraping with overlaps to just above the SO-239 on the Antenna. I then started just below the Super 33 Tape with Coax Seal and again with overlapping wrap went just above the Super 33 Tape. I then massaged the coax seal to get it to properly stick as needed and seal it up. After than I pulled out the super 33 tape gain and started just below the coax seal and overlapping, I wraped all the way up above the coax seal, and then back down below the coax seal. 
+
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/MFJ-1852.jpeg
+
