@@ -58,3 +58,9 @@ I then took the RF Davis Coax and attached it to the Antenna. I sealed the conne
 
 .. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/sealedcoax.jpeg
 
+After doing all that, all that is left is securing the RF Davis Bury Flex Coax to the Mast and tidying things up. For this I just used Zip Ties (Yes I know they break down when exposed to UV so every few years I replace them as part of my on-going maintenance. Don't be a sad ham.)
+
+Final Antenna Installation (Yes I know I need to clean my house, gutters, etc.)
+
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/MFJ-1852.jpeg
+
