@@ -56,5 +56,5 @@ Next up was Cutting a peice of Davis RF Bury Flex (LMR400) Coax and Soldering on
 
 I then took the RF Davis Coax and attached it to the Antenna. I sealed the connections but taking 3M Supper 33 Tape and starting just below the PL-259 connector and wraping with overlaps to just above the SO-239 on the Antenna. I then started just below the Super 33 Tape with Coax Seal and again with overlapping wrap went just above the Super 33 Tape. I then massaged the coax seal to get it to properly stick as needed and seal it up. After than I pulled out the super 33 tape gain and started just below the coax seal and overlapping, I wraped all the way up above the coax seal, and then back down below the coax seal. 
 
-.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/MFJ-1852.jpeg
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/sealedcoax.jpeg
 
