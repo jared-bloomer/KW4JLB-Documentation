@@ -73,8 +73,8 @@ For safety reason I will not go into how to wire up an industrial switching powe
 
 A Polyphaser IS-50UX-C0 Lightening Arrestor was installed to protect the Coax before it entered the structure. This is to help prevent any damage from a lightening strike. 
 
-.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor1.jpeg
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor1.jpg
 
-.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor2.jpeg
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor2.jpg
 
-.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor3.jpeg
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor3.jpg
