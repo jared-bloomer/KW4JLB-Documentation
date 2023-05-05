@@ -54,11 +54,11 @@ Once I mounted the Antenna, MFJ suggest attaching the short coax run for the dri
 
 Next up was Cutting a peice of Davis RF Bury Flex (LMR400) Coax and Soldering on some PL-259 connectors. I ended up cutting around 15 feet of Coax for this particular installation. I like my connectors to look as professional as possible so I slip on a 3" peice of 1/2" Heatshrink with the glue on the inside, then my PL-259 barrel connector. I attached the inner connector of the PL-259, screwed on the barrel connector, then covered the end witht he heat shrink and sealed it all up but heating the heat shrink.
 
-I then took the RF Davis Coax and attached it to the Antenna. I sealed the connections but taking 3M Supper 33 Tape and starting just below the PL-259 connector and wraping with overlaps to just above the SO-239 on the Antenna. I then started just below the Super 33 Tape with Coax Seal and again with overlapping wrap went just above the Super 33 Tape. I then massaged the coax seal to get it to properly stick as needed and seal it up. After than I pulled out the super 33 tape gain and started just below the coax seal and overlapping, I wraped all the way up above the coax seal, and then back down below the coax seal. 
+I then took the Davis RF Coax and attached it to the Antenna. I sealed the connections but taking 3M Supper 33 Tape and starting just below the PL-259 connector and wraping with overlaps to just above the SO-239 on the Antenna. I then started just below the Super 33 Tape with Coax Seal and again with overlapping wrap went just above the Super 33 Tape. I then massaged the coax seal to get it to properly stick as needed and seal it up. After than I pulled out the super 33 tape gain and started just below the coax seal and overlapping, I wraped all the way up above the coax seal, and then back down below the coax seal. 
 
 .. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/sealedcoax.jpeg
 
-After doing all that, all that is left is securing the RF Davis Bury Flex Coax to the Mast and tidying things up. For this I just used Zip Ties (Yes I know they break down when exposed to UV so every few years I replace them as part of my on-going maintenance. Don't be a sad ham.)
+After doing all that, all that is left is securing the Davis RF Bury Flex Coax to the Mast and tidying things up. For this I just used Zip Ties (Yes I know they break down when exposed to UV so every few years I replace them as part of my on-going maintenance. Don't be a sad ham.)
 
 Final Antenna Installation (Yes I know I need to clean my house, gutters, etc.)
 
