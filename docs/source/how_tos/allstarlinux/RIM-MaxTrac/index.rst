@@ -71,3 +71,10 @@ For safety reason I will not go into how to wire up an industrial switching powe
 
 .. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/switching_psu.jpg
 
+A Polyphaser IS-50UX-C0 Lightening Arrestor was installed to protect the Coax before it entered the structure. This is to help prevent any damage from a lightening strike. 
+
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor1.jpeg
+
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor2.jpeg
+
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor3.jpeg
