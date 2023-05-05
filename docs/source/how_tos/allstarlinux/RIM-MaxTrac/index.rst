@@ -64,3 +64,10 @@ Final Antenna Installation (Yes I know I need to clean my house, gutters, etc.)
 
 .. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/MFJ-1852.jpeg
 
+Power
+-----
+
+For safety reason I will not go into how to wire up an industrial switching power supply. Here is a picture of the 12 volt 30 amp switching power supply I am using for this project.
+
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/switching_psu.jpg
+
