@@ -88,3 +88,8 @@ Here you can see the RIM-MaxTrac attached to the 16 pin connector on the back of
 
 .. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/RIM-MaxTrac.jpg
 
+The RIM-MaxTrac is connected to a Raspberry Pi 3B via a USB Cables
+
+.. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/rpi.jpg
+
+The rest of the magic happens on the Raspberry Pi with the configuration of `Hamvoip <https://hamvoip.org/>`_ .`
