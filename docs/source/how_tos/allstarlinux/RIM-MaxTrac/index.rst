@@ -78,3 +78,9 @@ A Polyphaser IS-50UX-C0 Lightening Arrestor was installed to protect the Coax be
 .. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor2.jpg
 
 .. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/lightening_arrestor3.jpg
+
+Radio and RIM-MaxTrac URI
+-------------------------
+
+As far as the Radio goes, we have a Motorola Maxtrac VHF 45W Radio. Since this is an older radio, an old computer running DOS with a serial port is needed to program this radio. Due to that getting screen shots of the programming software is just ugly since I would be taking a picture of a computer screen and that never comes out well. You need to connect the RIB to the serial Port on the computer and then use the programming cable from the RIB to the MIC input on the radio. Also depending on the firmware on the radio the version of the Maxtrac software that works will vary. For us this was a lot of trial and error to find the right version. The key thing to programming the radio though is under additional programming where you can setup the various pins on the back on the radio. Pin 8 and 12 need to be set to HIGH and the set for specific purposes. This can be found as a note on the bottom of the `RIM-Maxtrac Schematic <https://www.repeater-builder.com/products/RIM_pdfs/RB_RIM_Max.pdf>`_ .
+
