@@ -105,6 +105,8 @@ We have gone through several Motorola Maxtrac radios ion the last several weeks/
 
 Because of these challenges we as a club decided to punt on the Motorola MaxTrac radios and we switching to using an `Alinco DR-135T MK3 VHF Radio <https://www.chattradio.com/ALINCO-DR-135TMK3-TRANSCEIVER-p430994212>`_. The audio quality of the radio is way better and we can easily adjust power settings or change the programming form the radio itself. We found the radio is so easy to program we did not find the need to purchase a programming cable (`Alinco ERW-7 <https://www.dxengineering.com/parts/alo-erw-7>`_). Using this radio if we did choose to use the programming cable, we can use this on a more modern computer running Windows. Overall, the management of the radio is much easier and we do not need to borrow anything from others. 
 
+Changing the radio also means changing the URI. For this we went with the `RIM-Alinco URI provided by repeater-builder <https://www.repeater-builder.com/products/usb-rim-lite.html>_`.
+
 Along with this change, we had to update the asterisk configurations on our allstar node. Below you can find copies of our configurations
 
 simpleusb.conf::
