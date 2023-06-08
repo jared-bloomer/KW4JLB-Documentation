@@ -34,4 +34,4 @@ jobs:
       with:
         documentation_path: ./docs/source
         requirements_path: ./requirements.txt
-        cache: true
+        cache: false
