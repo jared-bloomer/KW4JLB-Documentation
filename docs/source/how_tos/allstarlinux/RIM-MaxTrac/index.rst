@@ -172,4 +172,4 @@ simpleusb_tune_usb.conf::
     txmixbset=799
     txdsplvl=999
 
-After updating these configs we just needed to restart asterisk by running the command `astres.sh`.
+After updating these configs we just needed to restart asterisk by running the command `astres.sh`. Once Asterisk has been restarted the link radio should be live and working. 
