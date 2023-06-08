@@ -97,3 +97,77 @@ The RIM-MaxTrac is connected to a Raspberry Pi 3B via a USB Cables
 .. image:: /_static/images/howtos/allstarlinux/rim-maxtrac/rpi.jpg
 
 The rest of the magic happens on the Raspberry Pi with the configuration of `Hamvoip <https://hamvoip.org/>`_ .
+
+Follow Up After Some Time
+-------------------------
+
+We have gone through several Motorola Maxtrac radios ion the last several weeks/months. The Radios we have in our inventory are old retired fire department radios that were heavily used. We have found the life span of these radios varies from hours to weeks. Regardless the lifespan is incredibly short for our use case. In addition to that we have to borrow a computer, Motorola RIB from someone else to program these radios. The programming software runs on DOS 6.2.2 or later and requires an Intel Pentium or earlier processor. This really creates a challenge for management of the radios. 
+
+Because of these challenges we as a club decided to punt on the Motorola MaxTrac radios and we switching to using an `Alinco DR-135T MK3 VHF Radio <https://www.chattradio.com/ALINCO-DR-135TMK3-TRANSCEIVER-p430994212>`_. The audio quality of the radio is way better and we can easily adjust power settings or change the programming form the radio itself. We found the radio is so easy to program we did not find the need to purchase a programming cable (`Alinco ERW-7 <https://www.dxengineering.com/parts/alo-erw-7>`_). Using this radio if we did choose to use the programming cable, we can use this on a more modern computer running Windows. Overall, the management of the radio is much easier and we do not need to borrow anything from others. 
+
+Along with this change, we had to update the asterisk configurations on our allstar node. Below you can find copies of our configurations
+
+simpleusb.conf::
+
+    ;
+    ; SimpleUSB configuration
+    ;
+    ; Shown for two nodes. Second node commented out.
+    ;
+    [general]
+
+    [usb]
+
+    eeprom=0
+
+    rxboost=0		; 0 = 20db attenuator inserted, 1= 20db attenuator removed
+                ; Set to 1 for additonal gain if using a low-level receiver output
+    txboost=0
+
+    txmixa=voice
+    txmixb=no
+
+    carrierfrom=usb 	; no,usb,usbinvert
+                ; no - no carrier detection at all
+                ; usb - from the COR line on the modified USB sound fob
+                ; usbinvert - from the inverted COR line on the modified USB sound fob
+
+    ctcssfrom=no  		; no,usb,usbinvert
+                ; no - CTCSS decoding, system will be carrier squelch
+                ; usb - CTCSS decoding using input from USB FOB
+                ; usbinvert - from the inverted CTCSS line on the modified USB sound fob
+
+    invertptt=0  		; Invert PTT 0 = ground to transmit, 1 = open to transmit
+                ; This is the collector lead of the 2n4401 on the modified
+                ; usb sound fob.
+                ; please refer to the howto for the procedure to do this.
+
+    ; Only uncomment following two lines if necessary for your installation
+
+    plfilter=yes		; enable PL filter
+
+    deemphasis=yes		; enable de-emphasis (input from discriminator)
+    preemphasis=no		; enable pre-emphasis (output to TX)
+
+    ;rxaudiodelay=0		; rx audio delay for squelch tail elimination. Valid values
+                            ; from 0-24 in 20ms increments. Typical values 5-10
+
+
+    dcsfilter = no
+    rxondelay = 0
+    rxaudiodelay = 0
+    queuesize = 8
+    tx_audio_level_method = 0
+
+simpleusb_tune_usb.conf::
+
+    [usb]
+    ; name=usb
+    ; devicenum=0
+    devstr=1-1.4:1.0
+    rxmixerset=400
+    txmixaset=430
+    txmixbset=799
+    txdsplvl=999
+
+After updating these configs we just needed to restart asterisk by running the command `astres.sh`.
